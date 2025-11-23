@@ -1,30 +1,28 @@
 {
-  "name": "lopes-designer-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "type": "module",
-  "license": "MIT",
-  "engines": {
-    "node": ">=20.0.0"
-  },
+  "description": "Backend fullstack com Node, TypeScript e Drizzle ORM",
+  "main": "server/src/index.ts",
   "scripts": {
-    "dev": "NODE_ENV=development tsx server/index-dev.ts",
-    "build": "tsc --noEmit && esbuild server/index-prod.ts --platform=node --packages=external --bundle --format=esm --outfile=dist/index.js",
-    "start": "NODE_ENV=production node dist/index.js",
-    "check": "tsc --noEmit"
+    "start": "ts-node server/src/index.ts",
+    "dev": "ts-node-dev --respawn --transpile-only server/src/index.ts",
+    "build": "tsc"
   },
+  "author": "Gabriel Lopes",
+  "license": "MIT",
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "ws": "^8.18.0",
-    "zod": "^3.24.2"
+    "drizzle-orm": "^0.27.0",
+    "drizzle-zod": "^0.27.0",
+    "express": "^4.18.2",
+    "pg": "^8.11.1",
+    "dotenv": "^16.3.1"
   },
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "4.17.21",
-    "@types/node": "20.16.11",
-    "@types/ws": "^8.5.13",
-    "esbuild": "^0.25.0",
-    "tsx": "^4.20.5",
-    "typescript": "5.6.3"
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "@types/node": "^20.5.0",
+    "@types/express": "^4.17.21"
   }
 }
+
