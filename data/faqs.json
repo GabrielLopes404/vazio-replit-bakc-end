@@ -1,0 +1,22 @@
+[
+  {
+    "question": "❓ Quanto tempo leva para entregar um projeto?",
+    "answer": "Depende do tipo de arte. Logos e banners simples levam de 1 a 3 dias. Projetos mais completos, como personagens 3D ou pacotes para apps e sites, podem levar de 5 a 10 dias. Sempre passo o prazo certinho antes de começar.",
+    "order": 1
+  },
+  {
+    "question": "❓ Posso pedir alterações depois da entrega?",
+    "answer": "Sim! Todos os projetos incluem um número de revisões gratuitas, para garantir que o resultado fique exatamente como você quer. O importante é você sair satisfeito.",
+    "order": 2
+  },
+  {
+    "question": "❓ Você trabalha com urgência?",
+    "answer": "Sim, dependendo da demanda do momento. Projetos com urgência têm uma pequena taxa adicional, mas consigo priorizar e entregar o quanto antes com a mesma qualidade.",
+    "order": 3
+  },
+  {
+    "question": "❓ É verdade que só pago depois que a arte estiver pronta?",
+    "answer": "Sim! Todas as artes são feitas com pagamento somente após a entrega. Você só paga depois de ver, aprovar e ficar satisfeito com o resultado. Sem riscos, sem surpresas — confio tanto no meu trabalho que coloco sua confiança em primeiro lugar.",
+    "order": 4
+  }
+]
